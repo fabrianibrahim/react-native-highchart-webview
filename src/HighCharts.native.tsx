@@ -3,8 +3,10 @@ import * as Highcharts from 'highcharts';
 import WebView, { WebViewMessageEvent } from 'react-native-webview';
 import useBuildHighChartsHTML from './hooks/useBuildHighChartsHTML.native';
 
+export type HighChartsOptions = Highcharts.Options;
+
 interface HighChartsProps  {
-    options: Highcharts.Options;
+    options: HighChartsOptions;
     children?: React.ReactNode;
     messageCallback?(event: WebViewMessageEvent): void;
 }
