@@ -1,0 +1,65 @@
+## Generic Files to Ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+node_modules
+*.map
+*.log
+
+coverage
+npm-debug.log
+jest
+test_results
+.vscode
+*.pyc
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+.idea
+.gradle
+local.properties
+*.iml
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+/.ssl/
+
+/ios/Hydrawise.xcworkspace
+/ios/fastlane/.env
+/ios/Hydrawise.app.dSYM.zip
+/ios/.xcode.env.local
+
+android/app/src/main/assets/index.android.bundle
+
+stats.json
